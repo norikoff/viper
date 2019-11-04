@@ -15,8 +15,8 @@
 		596E5586236DC43E005DC048 /* InteractorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E5585236DC43E005DC048 /* InteractorImpl.swift */; };
 		596E5588236DC468005DC048 /* PresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E5587236DC468005DC048 /* PresenterImpl.swift */; };
 		596E558C236DC4B4005DC048 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E558B236DC4B4005DC048 /* Protocols.swift */; };
-		596E558E236DC8A1005DC048 /* ButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E558D236DC8A1005DC048 /* ButtonFactory.swift */; };
 		596E5591236DCB96005DC048 /* RouterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E5590236DCB96005DC048 /* RouterImpl.swift */; };
+		596E55B32370B846005DC048 /* ButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E55B22370B846005DC048 /* ButtonFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		596E5585236DC43E005DC048 /* InteractorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorImpl.swift; sourceTree = "<group>"; };
 		596E5587236DC468005DC048 /* PresenterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterImpl.swift; sourceTree = "<group>"; };
 		596E558B236DC4B4005DC048 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
-		596E558D236DC8A1005DC048 /* ButtonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonFactory.swift; path = ../../../../../.Trash/ButtonFactory.swift; sourceTree = "<group>"; };
 		596E5590236DCB96005DC048 /* RouterImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterImpl.swift; sourceTree = "<group>"; };
+		596E55B22370B846005DC048 /* ButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				596E558F236DCB7F005DC048 /* Router */,
-				596E558D236DC8A1005DC048 /* ButtonFactory.swift */,
 				596E558A236DC495005DC048 /* Protocols */,
 				596E5589236DC46E005DC048 /* Presenter */,
 				596E5584236DC41B005DC048 /* Interactor */,
@@ -75,6 +74,7 @@
 				596E5534236B5351005DC048 /* Assets.xcassets */,
 				596E5536236B5351005DC048 /* LaunchScreen.storyboard */,
 				596E5539236B5351005DC048 /* Info.plist */,
+				596E55B22370B846005DC048 /* ButtonFactory.swift */,
 			);
 			path = Viper;
 			sourceTree = "<group>";
@@ -182,8 +182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				596E558E236DC8A1005DC048 /* ButtonFactory.swift in Sources */,
 				596E5591236DCB96005DC048 /* RouterImpl.swift in Sources */,
+				596E55B32370B846005DC048 /* ButtonFactory.swift in Sources */,
 				596E558C236DC4B4005DC048 /* Protocols.swift in Sources */,
 				596E5588236DC468005DC048 /* PresenterImpl.swift in Sources */,
 				596E5530236B534F005DC048 /* ViewController.swift in Sources */,
